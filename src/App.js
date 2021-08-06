@@ -9,7 +9,7 @@ function App() {
       <AppProvider>
         <header className="App-header">
           <AppContext.Consumer>
-            {({message})=> message}
+            {({ message }) => <h1> teste dentro do app {message}</h1>}
           </AppContext.Consumer>
           <Test />
         </header>

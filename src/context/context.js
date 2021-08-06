@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const AppContext = createContext({
-  messsage: null
+  messsage: "estado inicial"
 })
 
 export default AppContext

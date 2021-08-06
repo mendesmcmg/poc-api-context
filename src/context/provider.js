@@ -1,12 +1,12 @@
 import AppContext from "./context";
 
-const initialState = {
+const defaultState = {
   message: "conseguiii"
 }
 
 const AppProvider = ({children}) => {
   return (
-    <AppContext.Provider value={{ message: initialState.message}}>
+    <AppContext.Provider value={{ message: defaultState.message}}>
       {children}
     </AppContext.Provider>
   )
