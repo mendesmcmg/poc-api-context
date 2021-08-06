@@ -1,6 +1,5 @@
 import "./App.css";
 import AppProvider from "./context/provider";
-import { useContext } from "react";
 import AppContext from "./context/context";
 import Test from "./test1";
 
