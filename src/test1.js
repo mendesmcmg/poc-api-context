@@ -9,7 +9,7 @@ function Test() {
 
   return (
     <>
-      <h1>teste fora do app {message}</h1>
+      <h1>teste fora do App {message}</h1>
       <button onClick={() => changeMessage("nova m")}>mudar</button>
     </>
   );
