@@ -1,7 +1,8 @@
 import { createContext } from "react";
 
 const AppContext = createContext({
-  messsage: "estado inicial"
-})
+  messsage: null,
+  changeMessage: () => {},
+});
 
-export default AppContext
+export default AppContext;
