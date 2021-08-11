@@ -14,7 +14,7 @@ function App() {
                 <h1>{title}</h1>
                 <h2>teste dentro do App {message}</h2>
               </>
-            )}
+            )} 
           </AppContext.Consumer>
           <Test />
         </header>
